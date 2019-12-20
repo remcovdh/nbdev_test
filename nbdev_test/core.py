@@ -8,4 +8,4 @@ def helloworld(a):
 
 #Cell
 def helloworld2(a):
-    print('Hello world two '+ a)
+    print('Hello world (second version) '+ a)
