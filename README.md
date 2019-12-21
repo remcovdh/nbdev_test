@@ -12,16 +12,43 @@
 
 > Just trying all kind of things: other locations etc, etc.
 
+<div class="codecell" markdown="1">
+<div class="input_area" markdown="1">
 
-This file will become your README and also the index of your documentation.
+```python
+%load_ext autoreload
+%autoreload 2
+```
+
+</div>
+
+</div>
+
+This file is based upon / is a reflection of index.ipynb. It is meant as the README and also the index of your documentation.
 
 ## Install
 
-`pip install your_project_name`
+TODO `pip install your_project_name`
 
 ## How to use
 
 Fill me in please! Don't forget code examples:
+<div class="codecell" markdown="1">
+<div class="input_area" markdown="1">
+
+```python
+helloworld('Jeanne')
+```
+
+</div>
+<div class="output_area" markdown="1">
+
+    Hello world Jeanne
+
+
+</div>
+
+</div>
 <div class="codecell" markdown="1">
 <div class="input_area" markdown="1">
 
@@ -32,110 +59,12 @@ helloworld2('Kees')
 </div>
 <div class="output_area" markdown="1">
 
-    Hello world (second version) Kees
 
 
-</div>
 
-</div>
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-!ls
-```
-
-</div>
-<div class="output_area" markdown="1">
-
-    00_core.ipynb  index.ipynb
+    'Hello world (second version) Kees'
 
 
-</div>
-
-</div>
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-!ls ..
-```
-
-</div>
-<div class="output_area" markdown="1">
-
-    CONTRIBUTING.md  Makefile   docs	notebooks     setup.py
-    LICENSE		 README.md  nbdev_test	settings.ini
-
-
-</div>
-
-</div>
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-!echo $PATH
-```
-
-</div>
-<div class="output_area" markdown="1">
-
-    /home/jpuser/dockerhostvolume/nbdev_test:/opt/conda/bin:/opt/conda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
-
-
-</div>
-
-</div>
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-!ls /home/jpuser/dockerhostvolume/nbdev_test
-```
-
-</div>
-<div class="output_area" markdown="1">
-
-    CONTRIBUTING.md  Makefile   docs	notebooks     setup.py
-    LICENSE		 README.md  nbdev_test	settings.ini
-
-
-</div>
-
-</div>
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-!echo $PYTHONPATH
-```
-
-</div>
-<div class="output_area" markdown="1">
-
-    
-
-
-</div>
-
-</div>
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-!set PYTHONPATH="/home/jpuser/dockerhostvolume/nbdev_test"
-```
-
-</div>
-
-</div>
-<div class="codecell" markdown="1">
-<div class="input_area" markdown="1">
-
-```python
-!
-```
 
 </div>
 
